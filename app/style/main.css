@@ -1,0 +1,46 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+a {
+  color: #000;
+  text-decoration: none;
+}
+
+
+#indexpage,
+#page1 {
+  width: 80%;
+  margin: 20px auto;
+}
+#indexpage img {
+  display: block;
+  height: ;
+  margin: 10px auto;
+}
+#indexpage header,
+#page1 header {
+  text-align: center;
+  font-size: 22px;
+}
+.nav button {
+  display: block;
+  margin: 10px auto;
+  outline: none;
+  border: none;
+  background: green;
+  height: 40px;
+  width: 85px;
+  border-radius: 4px;
+  line-height: 40px;
+  cursor: pointer;
+}
+.nav button:hover {
+  background: #26ab26;
+}
+.nav button a {
+  display: block;
+  height: 100%;
+  width: 100%;
+  color: #fff;
+}
